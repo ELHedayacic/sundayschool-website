@@ -1,6 +1,5 @@
 import { ArrowRight, CalendarDays, GraduationCap, ShieldCheck } from "lucide-react";
 import { PORTAL_URL, school } from "../data/content";
-import officialLogo from "../assets/el-hedaya-official-logo.png";
 
 export default function Hero() {
   return (
@@ -82,13 +81,6 @@ export default function Hero() {
               </div>
               <a href={PORTAL_URL} aria-label="Open parent portal">↗</a>
             </div>
-          </div>
-          <div className="hero-seal">
-            <img
-              src={officialLogo}
-              alt="EL Hedaya Islamic School official logo"
-              className="hero-seal-logo"
-            />
           </div>
         </div>
       </div>

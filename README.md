@@ -150,3 +150,16 @@ gallery photo each time the homepage loads. It uses the same gallery data source
 
 If no published gallery photos are available, the official EL Hedaya school logo is used
 as a graceful fallback. Unpublished/hidden photos are never selected.
+
+## Batch gallery uploads
+
+The hidden gallery admin now supports selecting or drag-dropping up to 30 images at once.
+Each image can be up to 10 MB (JPG, PNG, WEBP, or GIF). The admin can preview the
+batch, remove individual files, clear the queue, and upload the batch in one action.
+Uploads are processed independently, so a failed image remains in the queue for retry
+without cancelling successful uploads. The existing URL-based image option remains available.
+
+
+## V6 hero refinement
+
+Removed the floating EL Hedaya logo badge from the right-side hero schedule card for a cleaner, more minimal composition. The official logo remains in the website branding/header where appropriate.
